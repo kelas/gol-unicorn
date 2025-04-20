@@ -6,8 +6,8 @@
 #include"cosmic_unicorn.hpp"
 #include"c.h"
 
-#define D       32
-#define DD      D*D
+#define D       32      // cosmic unicorn is 32...
+#define DD      D*D     // ...by 32 astounding pixels!
 #define MAX_GEN 1000    // generations to qualify for survival
 #define SEED    0.1     // initial seed, percentage of DD
 #define STEP    2       // random walk during seed stage
